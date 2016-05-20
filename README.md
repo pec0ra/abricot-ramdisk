@@ -25,13 +25,11 @@ This repository contains the source code for the ramdisk of abricot kernel.
 
 ## Instructions
 1. Run
-   ```
-   ./pack_inner_ramdisk.sh
-   ```
+
+        ./pack_inner_ramdisk.sh
    This will backup `abricot_ramdisk_recovery/sbin/ramdisk.cpio.bz2` to `ramdisk.cpio.bz2.bak`, pack the content of `ramdisk` and save it to `abricot_ramdisk_recovery/sbin/ramdisk.cpio.bz2`.
 2. Then run
-   ```
-   ./pack_ramdisk.sh
-   ```
+
+        ./pack_ramdisk.sh
    This will pack the content of `abricot_ramdisk_recovery` and save it to `ramdisk.cpio.gz`.
 3. Use the file `ramdisk.cpio.gz` inside your kernel.'
