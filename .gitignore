@@ -1,0 +1,5 @@
+*~
+*.swp
+
+ramdisk.cpio.gz
+ramdisk.cpio.bz2.bak
