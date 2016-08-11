@@ -3,3 +3,4 @@
 
 ramdisk.cpio.gz
 ramdisk.cpio.bz2.bak
+abricot_ramdisk_recovery/sbin/ramdisk.cpio.bz2
